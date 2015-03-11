@@ -1,0 +1,144 @@
+2015/03/08 23:58:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "saludo/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('saludo/index')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\calabozo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/calabozo/index.php?r=saludo/index
+---
+2015/03/09 00:05:20 [error] [exception.CException] exception 'CException' with message 'SaludoController cannot find the requested view "index".' in C:\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 C:\wamp\www\yii\calabozo\protected\controllers\SaludoController.php(8): CController->render('index', Array)
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SaludoController->actionIndex()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('saludo/index')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\yii\calabozo\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/calabozo/index.php?r=saludo/index
+---
+2015/03/09 00:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pillos".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('pillos')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('pillos')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('saludo/pillos')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\yii\calabozo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/calabozo/index.php/saludo/pillos
+HTTP_REFERER=http://localhost/yii/calabozo/
+---
+2015/03/09 00:29:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pillos".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('pillos')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('pillos')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('saludo/pillos')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\yii\calabozo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/calabozo/index.php/saludo/pillos
+HTTP_REFERER=http://localhost/yii/calabozo/
+---
+2015/03/09 00:29:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pillos".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('pillos')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('pillos')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('saludo/pillos')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\yii\calabozo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/calabozo/index.php/saludo/pillos
+HTTP_REFERER=http://localhost/yii/calabozo/
+---
+2015/03/10 21:59:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/css/style...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\yii\calabozo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/calabozo/index.php/login/css/style.css
+HTTP_REFERER=http://localhost/yii/calabozo/index.php/login/index
+---
+2015/03/10 21:59:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/css/image...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\yii\calabozo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/calabozo/index.php/login/css/images/logo.gif
+HTTP_REFERER=http://localhost/yii/calabozo/index.php/login/index
+---
+2015/03/10 22:00:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/css/style...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\yii\calabozo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/calabozo/index.php/login/css/style.css
+HTTP_REFERER=http://localhost/yii/calabozo/index.php/login/index
+---
+2015/03/10 22:02:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/css/estil...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\yii\calabozo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/calabozo/index.php/login/css/estilos.css
+HTTP_REFERER=http://localhost/yii/calabozo/index.php/login/index
+---
+2015/03/10 22:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/css/estil...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\yii\calabozo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/calabozo/index.php/login/css/estilos.css
+HTTP_REFERER=http://localhost/yii/calabozo/index.php/login/index
+---
+2015/03/10 22:23:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('index.html')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index.html')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/index.htm...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\yii\calabozo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/calabozo/index.php/login/index.html
+HTTP_REFERER=http://localhost/yii/calabozo/index.php/login/index
+---
+2015/03/10 23:21:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('index.html')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index.html')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/index.htm...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\yii\calabozo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/calabozo/index.php/login/index.html
+HTTP_REFERER=http://localhost/yii/calabozo/index.php/login/index
+---
+2015/03/10 23:22:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('index.html')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index.html')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login/index.htm...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\yii\calabozo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/calabozo/index.php/login/index.html
+HTTP_REFERER=http://localhost/yii/calabozo/index.php/login/index
+---
